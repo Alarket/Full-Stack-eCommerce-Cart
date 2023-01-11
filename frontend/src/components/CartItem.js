@@ -16,7 +16,7 @@ const CartItem = ({item, qtyChangeHandler, removeHandler}) => {
         </Link>
 
         <p className="cartitem__price">${item.price}</p>
-
+        
         <select 
         className="cartitem__select" 
         value={item.qty} 
